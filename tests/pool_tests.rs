@@ -3,7 +3,7 @@
 //! These tests require a running Oracle database. Set the ORACLE_TEST_URL
 //! environment variable to run them.
 
-use deadpool_oracle::{ConfigExt, Pool, PoolBuilder};
+use deadpool_oracle::{ConfigExt, PoolBuilder};
 use oracle_rs::Config;
 use std::time::Duration;
 

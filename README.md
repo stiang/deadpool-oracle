@@ -4,6 +4,7 @@ Async connection pool for Oracle databases using `oracle-rs` and `deadpool`.
 
 [![Crates.io](https://img.shields.io/crates/v/deadpool-oracle.svg)](https://crates.io/crates/deadpool-oracle)
 [![Documentation](https://docs.rs/deadpool-oracle/badge.svg)](https://docs.rs/deadpool-oracle)
+[![Build Status](https://github.com/stiang/deadpool-oracle/actions/workflows/rust.yml/badge.svg)](https://github.com/stiang/deadpool-oracle/actions/workflows/rust.yml)
 [![License](https://img.shields.io/crates/l/deadpool-oracle.svg)](LICENSE-APACHE)
 
 ## Features
