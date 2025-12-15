@@ -1,0 +1,28 @@
+[package]
+name = "deadpool-oracle"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+authors = ["Stian Grytøyr"]
+description = "Deadpool connection pool for oracle-rs"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/oracle-rs/deadpool-oracle"
+homepage = "https://github.com/oracle-rs/deadpool-oracle"
+documentation = "https://docs.rs/deadpool-oracle"
+readme = "README.md"
+keywords = ["oracle", "database", "pool", "deadpool", "async"]
+categories = ["database", "asynchronous"]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[dependencies]
+# The Oracle driver
+oracle-rs = "0.1"
+
+# Connection pooling
+deadpool = { version = "0.12", features = ["rt_tokio_1"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "time"] }
