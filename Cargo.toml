@@ -1,13 +1,13 @@
 [package]
 name = "deadpool-oracle"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.70"
 authors = ["Stian Grytøyr"]
 description = "Deadpool connection pool for oracle-rs"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/oracle-rs/deadpool-oracle"
-homepage = "https://github.com/oracle-rs/deadpool-oracle"
+repository = "https://github.com/stiang/deadpool-oracle"
+homepage = "https://github.com/stiang/deadpool-oracle"
 documentation = "https://docs.rs/deadpool-oracle"
 readme = "README.md"
 keywords = ["oracle", "database", "pool", "deadpool", "async"]
